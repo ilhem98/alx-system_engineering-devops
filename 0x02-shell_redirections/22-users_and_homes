@@ -1,4 +1,2 @@
 #!/bin/bash
-while IFS=: read -r username _ _ _ _ home_directory _; do
-    echo "User: $username, Home Directory: $home_directory"
-done < /etc/passwd | sort
+find -type f-name "*.gif" | rev | cut -d
